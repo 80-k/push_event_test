@@ -2,7 +2,9 @@ name: Hello From main
 
 on:
   push:
-    branches: ["main", "dev"]
+    branches:
+      - main
+      - dev
 
 jobs:
   test1:
